@@ -1,0 +1,9 @@
+jupyter nbconvert meetup_help.ipynb\
+  --to slides\
+  --reveal-prefix reveal.js\
+  --SlidesExporter.reveal_theme=solarized\
+  --TagRemovePreprocessor.remove_input_tags='{"remove_input"}'\
+  --TagRemovePreprocessor.remove_single_output_tags='{"remove_input"}'\
+  --ServePostProcessor.port=8001\
+  --no-prompt\
+  --post serve;
