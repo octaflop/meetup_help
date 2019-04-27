@@ -1,0 +1,21 @@
+body p {
+  font-size: 52px;
+}
+body li {
+  font-size: 52px;
+}
+body ol {
+  font-size: 52px;
+}
+.reveal img {
+  min-height: 950px;
+  max-height: 1000px;
+}
+
+.reveal .qr-code img {
+  max-height: 300px;
+}
+
+#afooter {
+ text-align: right;
+}
